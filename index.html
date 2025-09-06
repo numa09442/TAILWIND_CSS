@@ -1,0 +1,461 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="fixed top-0 w-full py-6 bg-transparent z-50">
+    <div class="w-full sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto px-8">
+      <div class="flex items-center justify-between">
+        <div class="w-1/4">
+
+          <img src="logo 2.png" class="h-[50px] block md:hidden" alt="Logo" />
+
+          <img src="logo 2.png" class="h-[70px] hidden md:block" alt="Logo" />
+        </div>
+        <div class="w-3/4 flex items-center justify-end">
+          <ul class="flex gap-3 md:gap-6 items-center text-xs md:text-sm whitespace-nowrap">
+            <li>
+              <a href="view portfolio.html"
+                class="font-medium text-[#4e342e] hover:underline hover:decoration-2 hover:underline-offset-4">
+                PORTFOLIO
+              </a>
+            </li>
+            <li>
+              <a href="about.html"
+                class="font-medium text-[#4e342e] hover:underline hover:decoration-2 hover:underline-offset-4">
+                ABOUT
+              </a>
+            </li>
+            <li>
+              <a href="getstarted.html"
+                class="border border-amber-50 bg-transparent text-[#4e342e] px-2 md:px-3 py-0.5 md:py-1 text-xs md:text-sm rounded-full hover:bg-amber-50/30 hover:border-[#4e342e] transition duration-300 whitespace-nowrap">
+                GET STARTED
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="relative w-full h-screen">
+    <div class="hidden md:block w-full h-full relative">
+      <img src="desktop.jpg" alt="Homepage Desktop" class="w-full h-full object-cover" />
+      <div
+        class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center bg-black/20">
+        <h2 class="text-white text-4xl md:text-7xl font-light shadow mb-9 px-4">
+          Get your Designer Space
+        </h2>
+        <a href="getstarted.html"
+          class="font-serif bg-[#6D766B] text-white px-8 md:px-14 py-2 md:py-3 text-xl md:text-2xl rounded-full hover:bg-[#4c534b] transition">
+          GET STARTED NOW
+        </a>
+      </div>
+    </div>
+
+    <div class="relative block md:hidden w-full h-screen">
+      <img src="homepage-mobile.jpg" alt="Homepage Mobile" class="w-full h-full object-cover" />
+      <div
+        class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center bg-black/20">
+        <h2 class="text-white text-3xl sm:text-4xl font-light shadow mb-6 px-4">
+          Get your Designer Space
+        </h2>
+        <a href="getstarted.html"
+          class="font-serif bg-[#6D766B] text-white px-6 sm:px-8 py-2 text-lg sm:text-xl rounded-full hover:bg-[#4c534b] transition">
+          GET STARTED NOW
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="relative bg-[#FFF7EB] py-16">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-2xl sm:text-3xl font-medium font-serif text-[#4e342e] mb-10">Your Home, Reimagined.</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 border border-gray-300 p-6 rounded-lg shadow-sm">
+        <div class="flex flex-col items-center">
+          <img src="https://img.icons8.com/ios-filled/50/000000/edit-property.png" class="h-10 mb-3" />
+          <p class="text-sm text-gray-700">Customer Interiors</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" class="h-10 mb-3" />
+          <p class="text-sm text-gray-700 text-center">One-on-One Consultation</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="https://img.icons8.com/ios-filled/50/000000/layers.png" class="h-10 mb-3" />
+          <p class="text-sm text-gray-700">End-to-End Service</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="https://img.icons8.com/ios-filled/50/000000/idea.png" class="h-10 mb-3" />
+          <p class="text-sm text-gray-700 text-center">Concepts from Designers</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="https://img.icons8.com/ios-filled/50/000000/discount.png" class="h-10 mb-3" />
+          <p class="text-sm text-gray-700 text-center">Up to 45% Off Furniture</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="relative py-16 min-h-screen flex items-center justify-center">
+
+    <img src="our.jpg" alt="Our Services" class="absolute inset-0 w-full h-full object-cover -z-10" />
+
+    <!-- Content -->
+    <div class="max-w-6xl w-full px-8 text-center">
+      <h2 class="text-3xl md:text-6xl font-light text-[#4e342e] font-serif mb-4">Our Services</h2>
+      <h3 class="text-lg md:text-2xl font-light text-[#4e342e] mb-12">
+        Creating timeless interiors with a touch of luxury
+      </h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div class="bg-[#FFF7EB] text-[#4e342e] p-6    rounded-lg shadow-md">
+          <h3 class="text-xl font-serif mb-3">Living Room Designs</h3>
+          <p class="text-sm">Elegant and
+            Sophisticated Living Spaces</p>
+        </div>
+
+        <div class="bg-[#FFF7EB] text-[#4e342e] p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-serif mb-2">Bedroom Decors</h3>
+          <p class="text-sm">Serene and Luxurious Interiors</p>
+        </div>
+
+        <div class="bg-[#FFF7EB] text-[#4e342e] p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-serif mb-2">Custom Furnishings</h3>
+          <p class="text-sm">Furniture that Reflects Your Style</p>
+        </div>
+
+        <div class="bg-[#FFF7EB] text-[#4e342e] p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-serif mb-2">Interior Consultancy</h3>
+          <p class="text-sm">Design Advice That Brings Your Vision to Life</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#FFF7EB] py-12 text-center">
+    <div class="flex justify-center gap-8 text-lg font-light mb-6">
+      <span class="underline underline-offset-4">BEFORE</span>
+      <a href="after.html"><span>AFTER</span></a>
+    </div>
+    <div class="max-w-4xl mx-auto px-4">
+      <img src="before.jpg" alt="Modern Coastal Living Room" class="w-full rounded-xl shadow-lg" />
+    </div>
+    <h2 class="text-xl md:text-2xl text-[#4e342e] font-semibold mt-6">Modern Coastal Living Room</h2>
+    <div class="flex space-x-3 justify-center overflow-x-auto mt-8 pb-4">
+      <img src="before.jpg" alt="Interior 1" class="rounded-full w-12 h-12 border-2 border-brown-300">
+      <img src="image2.jpg" alt="Interior 2" class="rounded-full w-12 h-12 opacity-50">
+      <img src="image3.jpg" alt="Interior 3" class="rounded-full w-12 h-12 opacity-50">
+      <img src="image4.jpg" alt="Interior 4" class="rounded-full w-12 h-12 opacity-50">
+      <img src="image5.jpg" alt="Interior 5" class="rounded-full w-12 h-12 opacity-50">
+      <img src="image6.jpg" alt="Interior 6" class="rounded-full w-12 h-12 opacity-50">
+      <img src="image7.jpg" alt="Interior 7" class="rounded-full w-12 h-12 opacity-50">
+    </div>
+
+    <div class="flex justify-center gap-2 mt-4">
+      <span class="w-2 h-2 bg-gray-400 rounded-full inline-block opacity-50"></span>
+      <span class="w-2 h-2 bg-gray-400 rounded-full inline-block"></span>
+      <span class="w-2 h-2 bg-gray-400 rounded-full inline-block"></span>
+      <span class="w-2 h-2 bg-gray-400 rounded-full inline-block"></span>
+      <span class="w-2 h-2 bg-gray-400 rounded-full inline-block"></span>
+      <span class="w-2 h-2 bg-gray-400 rounded-full inline-block"></span>
+      <span class="w-2 h-2 bg-gray-400 rounded-full inline-block"></span>
+
+  </section>
+
+
+  <section class="bg-[#FFF7EB] pt-8 pb-16 px-4 text-center">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-xl md:text-2xl text-[#4e342e] font-semibold mb-6">Explore Real Spaces We've Transformed</h3>
+      <div class="flex flex-wrap justify-center gap-4 text-sm font-medium mb-8">
+        <span class="underline underline-offset-4">LIVING ROOM</span>
+        <a href="bedroom.html"><span>BEDROOM</span></a>
+        <span>DINING</span>
+        <span>BATHROOM</span>
+        <span>KITCHEN</span>
+      </div>
+      <div class="overflow-x-auto pb-6">
+        <div class="flex gap-4">
+          <img src="livingroom1.jpg"
+            class="h-60 w-48 md:h-[500px] md:w-[400px] object-cover rounded text-[#4e342e] flex-shrink-0" />
+          <img src="livingroom2.jpg"
+            class="h-60 w-48 md:h-[500px] md:w-[400px] object-cover rounded text-[#4e342e] flex-shrink-0" />
+          <img src="livingroom3.jpg"
+            class="h-60 w-48 md:h-[500px] md:w-[400px] object-cover rounded  text-[#4e342e] flex-shrink-0" />
+        </div>
+      </div>
+      <a href="view portfolio.html" class="bg-[#6D766B] text-white px-6 py-2 rounded hover:bg-[#4c534b] transition">VIEW
+        PORTFOLIO</a>
+    </div>
+  </section>
+
+  <section class="relative w-screen min-h-screen overflow-hidden">
+    <!-- Background Image -->
+    <img src="review.jpg" alt="Background" class="absolute inset-0 w-full h-full object-cover z-0" />
+
+    <div class="relative z-10 w-full h-full flex flex-col justify-center py-12">
+      <div class="text-center text-[#4e342e] px-4 mb-12">
+        <h1 class="text-2xl sm:text-3xl md:text-4xl font-serif font-medium mb-2">Our Valued Clients and Beautiful
+          Creations</h1>
+        <p class="mb-6 text-sm sm:text-base">
+          Our clients love what we do.
+          <a href="reviews.html" class="text-[#a0522d] font-light font-sans underline ml-2">See more reviews</a>
+        </p>
+      </div>
+      <div class="w-full max-w-6xl mx-auto px-4 sm:px-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+          <div class="bg-[#FFF7EB] p-6 rounded-xl shadow">
+            <p class="text-[#4e342e] mb-4 text-sm sm:text-base">
+              “Working with Casa Nepal was an absolute pleasure. Their team understood our vision perfectly. The
+              communication was excellent, and we couldn't be happier with our new living space!”
+            </p>
+            <div class="flex items-center mt-4">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Jashmine"
+                class="w-10 h-10 rounded-full object-cover mr-3" />
+              <div>
+                <p class="font-semibold text-sm sm:text-base">Jashmine MC Brown</p>
+                <p class="text-xs sm:text-sm text-gray-500">Washington, D.C</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#FFF7EB] p-6 rounded-xl shadow">
+            <p class="text-[#4e342e] mb-4 text-sm sm:text-base">
+              “Casa Nepal transformed our outdated home into a modern, functional, and aesthetically pleasing haven.
+              Their design ideas were fresh and innovative, and they truly maximized every square inch.”
+            </p>
+            <div class="flex items-center mt-4">
+              <img src="https://randomuser.me/api/portraits/men/47.jpg" alt="Jasper"
+                class="w-10 h-10 rounded-full object-cover mr-3" />
+              <div>
+                <p class="font-semibold text-sm sm:text-base">Jasper Jean Mariano</p>
+                <p class="text-xs sm:text-sm text-gray-500">Towson, Maryland</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#FFF7EB] p-6 rounded-xl shadow">
+            <p class="text-[#4e342e] mb-4 text-sm sm:text-base">
+              “We were initially worried about staying within our budget for our office renovation, but Casa Nepal
+              delivered an incredible outcome without compromising on quality. Our employees love the new workspace!”
+            </p>
+            <div class="flex items-center mt-4">
+              <img src="https://randomuser.me/api/portraits/men/42.jpg" alt="Sabrina"
+                class="w-10 h-10 rounded-full object-cover mr-3" />
+              <div>
+                <p class="font-semibold text-sm sm:text-base">Sabrina Thomas</p>
+                <p class="text-xs sm:text-sm text-gray-500">Company Client</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#FFF7EB] p-6 rounded-xl shadow">
+            <p class="text-[#4e342e] mb-4 text-sm sm:text-base">
+              “Before consulting with Casa Nepal, our ideas were all over the place. They patiently guided us with
+              expert advice. The end result truly reflects our personality and lifestyle. Thank you, Casa Nepal!”
+            </p>
+            <div class="flex items-center mt-4">
+              <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Taylor"
+                class="w-10 h-10 rounded-full object-cover mr-3" />
+              <div>
+                <p class="font-semibold text-sm sm:text-base">Taylor Swift</p>
+                <p class="text-xs sm:text-sm text-gray-500">Residential Client</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="bg-[#FFF7EB] py-12">
+    <div class="max-w-6xl mx-auto text-center px-4">
+      <h2 class="text-2xl font-medium font-serif text-[#4e342e] mb-6">Featured and Trusted By</h2>
+      <div class="flex flex-wrap justify-center items-center gap-6">
+        <img src="axion.png" class="h-16 md:h-24 object-contain" />
+        <img src="brand.png" class="h-16 md:h-24 object-contain" />
+        <img src="luigi.png" class="h-16 md:h-24 object-contain" />
+        <img src="nep.PNG" class="h-16 md:h-24 object-contain" />
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-black text-white py-10">
+    <div class="max-w-7xl mx-auto px-6 text-sm">
+
+
+      <div class="md:hidden space-y-6">
+
+        <div class="border-b border-gray-700">
+          <input type="checkbox" id="about-mobile" class="peer hidden">
+          <label for="about-mobile" class="flex justify-between items-center py-3 cursor-pointer font-semibold">
+            ABOUT US
+            <span class="transition-transform peer-checked:rotate-180">▼</span>
+          </label>
+          <ul
+            class="max-h-0 overflow-hidden peer-checked:max-h-96 transition-all duration-300 mt-2 space-y-2 text-gray-400">
+            <li><a href="#">The Team</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Design Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="border-b border-gray-700">
+          <input type="checkbox" id="explore-mobile" class="peer hidden">
+          <label for="explore-mobile" class="flex justify-between items-center py-3 cursor-pointer font-semibold">
+            EXPLORE
+            <span class="transition-transform peer-checked:rotate-180">▼</span>
+          </label>
+          <ul
+            class="max-h-0 overflow-hidden peer-checked:max-h-96 transition-all duration-300 mt-2 space-y-2 text-gray-400">
+            <li><a href="#">Style</a></li>
+            <li><a href="#">Interior Design Blog</a></li>
+            <li><a href="#">Sample Projects</a></li>
+            <li><a href="#">Designer Portfolio</a></li>
+            <li><a href="#">Virtual Interior Design</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+
+        <div class="border-b border-gray-700">
+          <input type="checkbox" id="locations-mobile" class="peer hidden">
+          <label for="locations-mobile" class="flex justify-between items-center py-3 cursor-pointer font-semibold">
+            LOCATIONS
+            <span class="transition-transform peer-checked:rotate-180">▼</span>
+          </label>
+          <ul
+            class="max-h-0 overflow-hidden peer-checked:max-h-96 transition-all duration-300 mt-2 space-y-2 text-gray-400">
+            <li><a href="#">Hetauda</a></li>
+            <li><a href="#">Dharan</a></li>
+            <li><a href="#">Pokhara</a></li>
+            <li><a href="#">Kathmandu</a></li>
+            <li><a href="#">Jhapa</a></li>
+            <li><a href="#">See All Locations</a></li>
+          </ul>
+        </div>
+
+
+        <div>
+          <p class="font-semibold mb-3">GET EXCLUSIVE TIPS & OFFERS</p>
+          <form class="flex items-center bg-white rounded overflow-hidden">
+            <input type="email" placeholder="Enter email address"
+              class="flex-1 px-3 py-2 text-black placeholder-gray-500 focus:outline-none">
+            <button type="submit" class="px-4">
+              <svg class="h-5 w-5 text-black" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  d="M2.94 2.94a1.5 1.5 0 012.12 0l12 12a1.5 1.5 0 01-2.12 2.12l-12-12a1.5 1.5 0 010-2.12zM18 2.5a.5.5 0 00-.5-.5h-15a.5.5 0 00-.35.85l15 15a.5.5 0 00.85-.35v-15z" />
+              </svg>
+            </button>
+          </form>
+        </div>
+
+
+        <div class="text-center mt-6">
+          <p class="font-semibold mb-3">JOIN OUR COMMUNITY</p>
+          <div class="flex justify-center gap-6">
+            <a href="#"><img src="instagram.png" class="h-6" alt="Instagram"></a>
+            <a href="#"><img src="facebook.png" class="h-6" alt="Facebook"></a>
+            <a href="#"><img src="threads.png" class="h-6" alt="Threads"></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="hidden md:flex md:flex-row md:justify-between md:items-start space-x-10">
+
+
+        <div>
+          <h3 class="font-semibold mb-3">ABOUT US</h3>
+          <ul class="space-y-2 text-gray-400 text-sm">
+            <li><a href="#">The Team</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Design Careers</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-semibold mb-3">EXPLORE</h3>
+          <ul class="space-y-2 text-gray-400 text-sm">
+            <li><a href="#">Style</a></li>
+            <li><a href="#">Interior Design Blog</a></li>
+            <li><a href="#">Sample Projects</a></li>
+            <li><a href="#">Designer Portfolio</a></li>
+            <li><a href="#">Virtual Interior Design</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-semibold mb-3">LOCATIONS</h3>
+          <ul class="space-y-2 text-gray-400 text-sm">
+            <li><a href="#">Hetauda</a></li>
+            <li><a href="#">Dharan</a></li>
+            <li><a href="#">Pokhara</a></li>
+            <li><a href="#">Kathmandu</a></li>
+            <li><a href="#">Jhapa</a></li>
+            <li><a href="#">See All Locations</a></li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col space-y-6">
+          <div>
+            <p class="font-semibold mb-3">GET EXCLUSIVE TIPS & OFFERS</p>
+            <form class="flex items-center bg-white rounded overflow-hidden">
+              <input type="email" placeholder="Enter email address"
+                class="flex-1 px-3 py-2 text-black placeholder-gray-500 focus:outline-none">
+              <button type="submit" class="px-4">
+                <svg class="h-5 w-5 text-black" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    d="M2.94 2.94a1.5 1.5 0 012.12 0l12 12a1.5 1.5 0 01-2.12 2.12l-12-12a1.5 1.5 0 010-2.12zM18 2.5a.5.5 0 00-.5-.5h-15a.5.5 0 00-.35.85l15 15a.5.5 0 00.85-.35v-15z" />
+                </svg>
+              </button>
+            </form>
+          </div>
+          <div>
+            <p class="font-semibold mb-3">JOIN OUR COMMUNITY</p>
+            <div class="flex gap-4">
+              <a href="#"><img src="instagram.png" class="h-6" alt="Instagram"></a>
+              <a href="#"><img src="facebook.png" class="h-6" alt="Facebook"></a>
+              <a href="#"><img src="threads.png" class="h-6" alt="Threads"></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div
+        class="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-gray-400 text-xs text-center md:text-left">
+        <div class="mb-4 md:mb-0">
+          <img src="logo2-2.jpg" alt="Casa Nepal Logo" class="h-12 mx-auto md:mx-0">
+        </div>
+        <p>&copy; 2025 Casa Nepal. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
